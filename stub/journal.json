@@ -1,0 +1,68 @@
+[
+    {
+        "Id":"f879f53a-5c58-11e7-80c5-9c8e991e5cb4",
+        "Date":"2017-06-30T23:59:59",
+        "OrgId":"f12d2c68-1a46-11e5-be74-00155dc6002b",
+        "OrgName":"ООО APS Logistic1",
+        "CustomerId":"8b7d60b0-35e3-11e5-80bc-1cc1de769e18",
+        "CustomerName":"ООО Эльдорадо1",
+        "TotalAmount":365459.31,
+        "FinanceNumber":"APS000000033",
+        "FinanceTaxNumber":"APS000000156",
+        "FinanceActLines": [
+            {
+                "FinanceActId":"f879f53a-5c58-11e7-80c5-9c8e991e5cb4",
+                "Description":"Автотранспортные услуги - операционная составляющая за период с 16.06.2017 по 30.06.2017 по договору Д-378НАВТ/НЮ от 03.07.2015",
+                "Qty":133.0,
+                "Rate":863.97,
+                "Amount":114908.01,
+                "TaxRate":18,
+                "TaxAmount":20683.44,
+                "IsDeleted":false
+            },
+            {
+                "FinanceActId":"f879f53a-5c58-11e7-80c5-9c8e991e5cb4",
+                "Description":"Автотранспортные услуги 2",
+                "Qty":133.0,
+                "Rate":863.97,
+                "Amount":114908.01,
+                "TaxRate":18,
+                "TaxAmount":20683.44,
+                "IsDeleted":false
+            }
+        ]
+    },
+    {
+        "Id":"f879f53a-5c58-11e7-80c5-9c8e991e5cb5",
+        "Date":"2017-06-30T23:59:59",
+        "OrgId":"f12d2c68-1a46-11e5-be74-00155dc6002b",
+        "OrgName":"ООО APS Logistic2",
+        "CustomerId":"8b7d60b0-35e3-11e5-80bc-1cc1de769e18",
+        "CustomerName":"ООО Эльдорадо2",
+        "TotalAmount":365459.31,
+        "FinanceNumber":"APS000000033",
+        "FinanceTaxNumber":"APS000000156",
+        "FinanceActLines": [
+            {
+                "FinanceActId":"f879f53a-5c58-11e7-80c5-9c8e991e5cb5",
+                "Description":"услуга1",
+                "Qty":133.0,
+                "Rate":863.97,
+                "Amount":114908.01,
+                "TaxRate":18,
+                "TaxAmount":20683.44,
+                "IsDeleted":false
+            },
+            {
+                "FinanceActId":"f879f53a-5c58-11e7-80c5-9c8e991e5cb5",
+                "Description":"услуга2",
+                "Qty":133.0,
+                "Rate":863.97,
+                "Amount":114908.01,
+                "TaxRate":18,
+                "TaxAmount":20683.44,
+                "IsDeleted":false
+            }
+        ]
+    }
+]

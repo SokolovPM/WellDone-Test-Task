@@ -1,0 +1,17 @@
+.row {
+    padding: 10px;
+
+    &:hover {
+        background: green;
+        cursor: pointer;
+    }
+}
+
+.lines {
+    margin: 30px 30px;
+    padding: 20px;
+    color: black;
+    background-color: #f1c40f;
+    border-radius: 5px;
+    z-index: 11;
+}
