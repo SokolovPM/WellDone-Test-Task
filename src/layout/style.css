@@ -1,6 +1,7 @@
 html, body {
   background: #c3c3c3;
   color: white;
+  height: 100%;
 }
 
 .button {
@@ -8,5 +9,15 @@ html, body {
 }
 
 .content {
-  margin-top: 30px;
+  min-height: 100%;
+}
+
+.content-inside {
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
 }
