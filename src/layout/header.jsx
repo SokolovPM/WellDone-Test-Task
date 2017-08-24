@@ -4,6 +4,6 @@ import style from './style.css'
 
 export const Header = () => (
     <div className={style.header}>
-        header
+        Акты об оказании услуг
     </div>
 )

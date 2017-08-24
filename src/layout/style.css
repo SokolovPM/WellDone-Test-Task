@@ -17,7 +17,9 @@ html, body {
   padding-bottom: 50px;
 }
 
-.footer {
-  height: 50px;
-  margin-top: -50px;
+.header {
+    padding: 30px 0 30px 45px;
+    background-color: #2e4e6b;
+    color: white;
+    font-size: 22px;
 }

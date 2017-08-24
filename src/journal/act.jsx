@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import moment from 'moment'
 
 import { Row, Col } from 'src/core_modules'
 
@@ -25,7 +26,7 @@ export class Act extends Component {
                 <div onClick={this.handleRowClick}>
                     <Row className={style.row} >
                         <Col xs={2}>
-                            {act.Date}
+                            {moment(act.Date).format("DD.MM.YYYY")}
                         </Col>
                         <Col xs={2}>
                             {act.OrgName}
@@ -46,7 +47,6 @@ export class Act extends Component {
                 </div>
                 {this.state.showLines && <ActLines close={this.handleClose} lines={act.FinanceActLines}/> }
             </div>
-
         )
     }
 }

@@ -1,17 +1,35 @@
 .row {
     padding: 10px;
+    border-bottom: 1px solid white;
 
     &:hover {
-        background: green;
+        background: #b0aec3;
         cursor: pointer;
     }
 }
 
 .lines {
-    margin: 30px 30px;
-    padding: 20px;
-    color: black;
-    background-color: #f1c40f;
+    margin: 130px 30px;
+    padding: 30px;
+    color: white;
+    background-color: #c3c3c3;
     border-radius: 5px;
     z-index: 11;
+}
+
+.table-header {
+    padding: 10px;
+    background: #2e4e6b;
+}
+
+.close {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 25px;
+
+    &:hover {
+        color: black;
+        cursor: pointer;
+    }
 }
